@@ -1,6 +1,6 @@
 # 🥬 SpoilSense: AI-Powered Produce Spoilage Detection Using YOLOv8
 
-SpoilSense is a lightweight, real-time computer vision system built to detect spoilage in fresh produce using a custom-trained YOLOv8 object detection model. The project leverages a dataset of 10,000+ annotated images across various fruit categories to distinguish between fresh and spoiled items — enabling smart monitoring in agricultural, retail, and food supply chain environments.
+SpoilSense is a lightweight, real-time computer vision system built to detect spoilage in fresh produce using a custom-trained YOLOv8 object detection model. The project uses a dataset of 10,000+ annotated images across various fruit categories to distinguish between fresh and spoiled items — potentially enabling smart monitoring in agricultural, retail, and food supply chain environments.
 
 ---
 
@@ -27,34 +27,6 @@ The primary objectives of SpoilSense are:
   - `Fresh_Orange`, `Rotten_Orange`
 - **Annotation Format**: YOLO format, with custom class definitions and spatial variance
 - **Performance**: Achieved **90%+ mAP** on validation set
-
----
-
-## 📁 Project Structure
-
-```
-SpoilSense/
-│
-├── dataset/
-│   ├── images/
-│   └── labels/
-│
-├── model/
-│   └── best.pt
-│
-├── notebooks/
-│   └── training_and_eval.ipynb
-│
-├── scripts/
-│   ├── inference.py
-│   └── data_preprocessing.py
-│
-├── assets/
-│   └── example_outputs/
-│
-├── requirements.txt
-└── README.md
-```
 
 ---
 
