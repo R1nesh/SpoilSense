@@ -99,18 +99,19 @@ All images were annotated manually using [Roboflow](https://roboflow.com) and ex
 
 ---
 
-## 💡 Future Improvements
+## 💡 Potential Future Improvements
 
+- Retrain the model with a larger set of photos for more accuracy
 - Add more fruit/vegetable categories  
 - Integrate temperature/humidity sensors for multi-modal spoilage detection  
-- Optimize model for edge deployment (e.g., Raspberry Pi, Jetson Nano)  
-- Build a mobile app version  
+- Build a mobile app version
+- Optimize the model for edge use (such as with an Arduino, Raspberry PI, Jetson nano, etc.)
 
 ---
 
 ## 📬 Contact
 
 For questions or collaboration:  
-**Name** – [yourname@email.com]  
-**LinkedIn** – [linkedin.com/in/yourprofile]  
-**GitHub** – [github.com/your-username]
+**Name** – [rajeshratnesh01@gmail.com]  
+**LinkedIn** – [linkedin.com/in/Ratnesh-rajesh]  
+**GitHub** – [https://github.com/R1nesh]
