@@ -4,7 +4,7 @@ SpoilSense is a lightweight, real-time computer vision system built to detect sp
 
 ---
 
-## 🚀 Purpose
+## Purpose
 
 The primary objectives of SpoilSense are:
 
@@ -15,7 +15,7 @@ The primary objectives of SpoilSense are:
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 - **Model Type**: YOLOv8 Object Detection (Ultralytics)
 - **Architecture**: Convolutional Neural Network (CNN)
@@ -30,7 +30,7 @@ The primary objectives of SpoilSense are:
 
 ---
 
-## 🛠️ Libraries & Tools
+## Libraries & Tools
 
 The following Python packages are required:
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🖼️ Sample Outputs
+## Sample Outputs
 
 Example detections using SpoilSense:
 
@@ -90,7 +90,7 @@ python scripts/gui_demo.py
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 The dataset includes 8 classes:
 - Fresh and Rotten variants of: **Apple**, **Banana**, **Tomato**, **Orange**
@@ -101,7 +101,8 @@ All images were annotated manually using [Roboflow](https://roboflow.com) and ex
 
 ## 💡 Potential Future Improvements
 
-- Retrain the model with a larger set of photos for more accuracy
+- Retrain the model with a larger set of photoes for more accuracy (more unannotated photoes in validation)
+- Potentially lower the confidence threshold for less background misses
 - Add more fruit/vegetable categories  
 - Integrate temperature/humidity sensors for multi-modal spoilage detection  
 - Build a mobile app version
@@ -112,6 +113,6 @@ All images were annotated manually using [Roboflow](https://roboflow.com) and ex
 ## 📬 Contact
 
 For questions or collaboration:  
-**Name** – [rajeshratnesh01@gmail.com]  
-**LinkedIn** – [https://www.linkedin.com/in/ratnesh-rajesh]  
-**GitHub** – [https://github.com/R1nesh]
+**Name** – rajeshratnesh01@gmail.com  
+**LinkedIn** – https://www.linkedin.com/in/ratnesh-rajesh  
+**GitHub** – https://github.com/R1nesh
