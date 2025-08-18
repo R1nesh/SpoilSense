@@ -65,8 +65,8 @@ Example detections using SpoilSense:
 
 | Input Image | Detection Output |
 |-------------|------------------|
-|![pexels-any-lane-5945883](https://github.com/user-attachments/assets/406785ac-3180-4d95-88cf-277d87917bdf)| ![output1]<img width="314" height="396" alt="Screenshot 2025-08-18 141629" src="https://github.com/user-attachments/assets/1adc1164-ec24-4957-8024-a4b33ece9fc3" />
- |
+|![pexels-any-lane-5945883](https://github.com/user-attachments/assets/406785ac-3180-4d95-88cf-277d87917bdf)|(https://github.com/user-attachments/assets/f2dcf0cf-c805-4e21-a4fc-e83482b48d3a)
+|
 | ![input2](assets/example_outputs/input2.jpg) | ![output2](assets/example_outputs/output2.jpg) |
 
 ---
