@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Fresh_Apple', 'Fresh_Banana', 'Fresh_Orange', 'Fresh_Tomato', 'Rotten_Apple', 'Rotten_Banana', 'Rotten_Orange', 'Rotten_Tomato']
+
+roboflow:
+  workspace: fruitfinder-tkfmr
+  project: fruits-konkj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fruitfinder-tkfmr/fruits-konkj/dataset/2
