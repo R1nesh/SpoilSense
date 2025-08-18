@@ -19,7 +19,7 @@ The primary objectives of SpoilSense are:
 
 - **Model Type**: YOLOv8 Object Detection (Ultralytics)
 - **Architecture**: Convolutional Neural Network (CNN)
-- **Dataset Size**: ~10,000 images (manually annotated)
+- **Dataset Size**: ~7,000 images (manually annotated)
 - **Classes**:
   - `Fresh_Apple`, `Rotten_Apple`
   - `Fresh_Banana`, `Rotten_Banana`
