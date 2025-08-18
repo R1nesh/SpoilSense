@@ -34,13 +34,13 @@ The primary objectives of SpoilSense are:
 
 The following Python packages are required:
 
-- `torch` – for deep learning operations  
-- `ultralytics` – YOLOv8 training and inference  
-- `opencv-python` – for image preprocessing and visualization  
-- `Pillow` – image handling  
-- `numpy` – numerical operations  
-- `matplotlib` – plotting metrics  
-- `tkinter`, `tkinterdnd2` – optional: GUI-based drag-and-drop demo  
+- `torch`  
+- `ultralytics` 
+- `opencv-python`
+- `Pillow` 
+- `numpy` 
+- `matplotlib` 
+- `tkinter`, `tkinterdnd2`
 
 Install all dependencies with:
 
