@@ -113,5 +113,5 @@ All images were annotated manually using [Roboflow](https://roboflow.com) and ex
 
 For questions or collaboration:  
 **Name** – [rajeshratnesh01@gmail.com]  
-**LinkedIn** – [linkedin.com/in/Ratnesh-rajesh]  
+**LinkedIn** – [https://www.linkedin.com/in/ratnesh-rajesh]  
 **GitHub** – [https://github.com/R1nesh]
