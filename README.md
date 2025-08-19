@@ -1,6 +1,6 @@
 # SpoilSense: AI-Powered Produce Spoilage Detection Using YOLOv8
 
-SpoilSense is a lightweight, real-time computer vision system built to detect spoilage in fresh produce using a custom-trained YOLOv8 object detection model. The project uses a dataset of 10,000+ annotated images across various fruit categories to distinguish between fresh and spoiled items — potentially enabling smart monitoring in agricultural, retail, and food supply chain environments.
+SpoilSense is a lightweight, real-time computer vision system model to detect spoilage in fresh produce using a custom-trained YOLOv8 object detection model. The project uses a dataset of 11,000+ annotated images across various fruit categories to distinguish between fresh and spoiled items — enabling smart monitoring in agricultural, retail, and food supply chain environments.
 
 ---
 
@@ -17,9 +17,9 @@ The primary objectives of SpoilSense are:
 
 ## Model Overview
 
-- **Model Type**: YOLOv8 Object Detection (Ultralytics)
-- **Architecture**: Convolutional Neural Network (CNN)
-- **Dataset Size**: ~7,000 images (manually annotated)
+- **Model Type**: YOLOv8n Object Detection (Ultralytics)
+- **Architecture**: YOLOv8n (Convolutional Neural Network)
+- **Dataset Size**: ~11,000 images (manually & algorithmically annotated)
 - **Classes**:
   - `Fresh_Apple`, `Rotten_Apple`
   - `Fresh_Banana`, `Rotten_Banana`
@@ -34,18 +34,15 @@ The primary objectives of SpoilSense are:
 
 The following Python packages are required:
 
-- `torch`  
-- `ultralytics` 
-- `opencv-python`
-- `Pillow` 
-- `numpy` 
-- `matplotlib` 
-- `tkinter`, `tkinterdnd2`
+- `Pillow`  
+- `tk` 
+- `ultralytics`
+- `tkinterdnd2` 
 
-Install all dependencies with:
+Install all dependencies in Terminal with:
 
 ```bash
-pip install -r requirements.txt
+pip install Pillow tk ultralytics tkinterdnd2
 ```
 
 ---
@@ -65,9 +62,11 @@ Example detections using SpoilSense:
 
 | Input Image | Detection Output |
 |-------------|------------------|
-|![pexels-any-lane-5945883](https://github.com/user-attachments/assets/406785ac-3180-4d95-88cf-277d87917bdf)|(https://github.com/user-attachments/assets/f2dcf0cf-c805-4e21-a4fc-e83482b48d3a)
-|
-| ![input2](assets/example_outputs/input2.jpg) | ![output2](assets/example_outputs/output2.jpg) |
+| ![pexels-any-lane-5945883](https://github.com/user-attachments/assets/7eda636b-9b3c-45b4-96d1-a00b328c9254) | ![Adobe Express - file](https://github.com/user-attachments/assets/2db24ba3-82c4-4f28-94cc-5b021fd9a0fc) |
+|![Malus_Ellison's_Orange (1)](https://github.com/user-attachments/assets/787e5714-5c09-481f-9ca3-287e65feff4a) | <img width="635" height="422" alt="Screenshot 2025-08-19 143607" src="https://github.com/user-attachments/assets/d3f9b960-9220-4b60-bcdc-0fb317ad85f5" /> |
+|![Tomatoes-Farm-scaled-1](https://github.com/user-attachments/assets/479fe52e-05c8-4ca2-814d-8c37ed970040)|<img width="636" height="424" alt="Screenshot 2025-08-19 143743" src="https://github.com/user-attachments/assets/3b37ecb2-b35d-44a7-b286-ba26a0a15bde" />|
+
+
 
 ---
 
@@ -75,18 +74,13 @@ Example detections using SpoilSense:
 
 ### 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/SpoilSense.git
+git clone https://github.com/R1nesh/SpoilSense
 cd SpoilSense
 ```
 
-### 2. **Run Inference**
+### 2. **Run the Inference GUI (Drag-and-Drop Demo)**
 ```bash
-python scripts/inference.py --source path/to/image_or_folder --weights model/best.pt
-```
-
-### 3. **Optional GUI (Drag-and-Drop Demo)**
-```bash
-python scripts/gui_demo.py
+python Scripts/modelTest.py
 ```
 
 ---
@@ -96,7 +90,7 @@ python scripts/gui_demo.py
 The dataset includes 8 classes:
 - Fresh and Rotten variants of: **Apple**, **Banana**, **Tomato**, **Orange**
 
-All images were annotated manually using [Roboflow](https://roboflow.com) and exported in YOLO format, with custom class mappings and varying conditions to simulate real-world environments (e.g., lighting, angle, partial rot).
+All images were annotated manually using [Roboflow](https://roboflow.com) and exported in YOLO format, with custom class mappings and varying conditions to simulate real-world environments (e.g., lighting, angle, partial rot, size).
 
 ---
 
