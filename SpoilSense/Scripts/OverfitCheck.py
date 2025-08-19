@@ -1,8 +1,8 @@
 import os
 import glob
 from collections import defaultdict
-
-LBL_DIR = r'..\train\labels'  # Update as needed
+# Update as needed
+LBL_DIR = r'..\train\labels'
 
 # Count how many images are in each cclass
 class_image_counts = defaultdict(int)

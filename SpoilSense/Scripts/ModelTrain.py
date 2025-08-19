@@ -1,10 +1,8 @@
 from ultralytics import YOLO
 
 def main():
-    # Load model from previous training
     model = YOLO('yolov8n.pt')
 
-    # Start new training (not resuming)
     model.train(
         data=r'..\data.yaml',
         epochs=110,
